@@ -1,5 +1,5 @@
 /*Import google fonts*/
-@import url("https://fonts.googleapis.com/css?family=Anton|Cookie|Lobster|Roboto|Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Cookie|Merriweather|Roboto|Sofia&display=swap");
 
 :root {
   --primary-color: rgb(52, 189, 136);
@@ -7,7 +7,7 @@
   --border: black;
   --text-color: black;
   --roboto: "Roboto", sans-serif;
-  --sofia: "Sofia", cursive;
+  --merriweather: "Merriweather", sans-serif;
   --anton: "Anton", sans-serif;
 }
 
@@ -40,15 +40,17 @@ header {
 
 header .site-title {
     font-family: var(--anton);
+    font-size: 2.3em;
 }
 
 .container .dropdown-toggle,
 .container .dropdown-item {
-    font-size: 0.7em;
+    font-size: 0.9em;
+    font-family: var(--merriweather);
 }
 
 .header-links a{
-    font-size: 0.9em;
+    font-size: 1.0em;
     text-decoration: none;
     color: white;
 }
