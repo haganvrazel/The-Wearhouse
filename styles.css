@@ -3,7 +3,7 @@
 
 :root {
   --primary-color: rgb(52, 189, 136);
-  --light-gray: rgb(214, 205, 205);
+  --light-gray: rgb(150, 142, 142);
   --border: black;
   --text-color: black;
   --roboto: "Roboto", sans-serif;
@@ -53,4 +53,23 @@ header .site-title {
     font-size: 1.0em;
     text-decoration: none;
     color: white;
+}
+
+/* Navbar */
+
+.navbar-nav {
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.9em;
+    color: var(--light-gray) !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 0 1.3em;
+}
+
+.navbar-nav .cart-icon {
+    margin-right: 6.5rem !important;
 }
