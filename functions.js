@@ -1,4 +1,4 @@
-$('.slider-1')
+$(".slider-1")
 .not(".slick-initialized")
 .slick({
     autoplay: true,
