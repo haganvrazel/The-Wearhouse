@@ -1,4 +1,4 @@
 # The-Wearhouse
 Ecommerce Website
 
-Making Initial Commit
+This project invloves creating an Ecommerce website for a local company called The WearHouse. 
