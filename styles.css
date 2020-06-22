@@ -59,6 +59,7 @@ header .site-title {
 
 .navbar-nav {
   padding: 0.8em 0em;
+  font-size: large;
 }
 
 .navbar-nav .nav-link {
